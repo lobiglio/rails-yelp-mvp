@@ -31,7 +31,7 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+gem 'faker'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
