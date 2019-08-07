@@ -1,3 +1,44 @@
 // Place all the styles related to the restaurants controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(0,0,2)
+}
+
+.card {
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.form-container {
+  padding: 64px;
+  background-color: white;
+}
+
+.show-title {
+  font-size: 56px;
+  margin-top: 64px;
+}
+
+.navbar {
+  margin-bottom: 64px;
+}
+
+.card img {
+  height: 300px;
+  object-fit: cover;
+}

@@ -1,0 +1,16 @@
+<!-- <h1 class="show-title"><%= @restaurant.name %></h1> -->
+<div class="card mb-3">
+  <img src="https://source.unsplash.com/featured/?restaurant,restaurant" class="card-img-top" alt="restaurant">
+  <div class="card-body">
+    <h4 class="card-title"><%= @restaurant.name %></h4>
+    <p><%= @restaurant.category %></p>
+    <p class="card-text"><%= @restaurant.address %></p>
+    <% @restaurant.reviews.each do |review|%>
+      <div class="comment">
+        <p class="card-text"><%= review.content %></p>
+        <p><%= review.rating %>/5</p>
+      </div>
+    <% end %>
+    <%= link_to "Add a new comment", new_restaurant_review_path(@restaurant), class: "btn btn-success" %>
+  </div>
+</div>
